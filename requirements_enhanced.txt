@@ -1,0 +1,23 @@
+# Core Dependencies
+# None required for basic functionality (pure Python)
+
+# Optional: For PDF Processing
+PyPDF2>=3.0.0
+
+# Optional: For Streamlit Web Interface
+streamlit>=1.28.0
+pandas>=1.5.0
+
+# Installation Instructions:
+# 
+# For basic usage (text processing only):
+#   No installation needed! Pure Python.
+#
+# For PDF support:
+#   pip install PyPDF2
+#
+# For web interface:
+#   pip install streamlit pandas PyPDF2
+#
+# Quick start web interface:
+#   streamlit run streamlit_app.py
